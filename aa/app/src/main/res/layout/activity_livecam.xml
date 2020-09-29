@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    android:orientation="vertical"
+    tools:context=".livecam">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintTop_toBottomOf="@id/webView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="36dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/ps1"
+            android:layout_width="131dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="9dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/webView"
+            android:background="@drawable/person2" />
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:textSize="10sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#31eb69"
+            android:lineSpacingExtra="10sp"
+            android:layout_gravity="left|top"
+            android:text="Name : Alonsovv Olanov"
+            app:layout_constraintStart_toStartOf="@id/frameLayout4"
+            app:layout_constraintTop_toBottomOf="@id/ps1"
+            android:layout_marginLeft="7dp"
+            />
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="143dp"
+            android:textSize="10sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="7dp"
+            android:textStyle="normal"
+            android:textColor="#31eb69"
+            android:lineSpacingExtra="10sp"
+            android:layout_gravity="left|top"
+            android:text="Nationality : spanish"
+            app:layout_constraintStart_toStartOf="@id/frameLayout4"
+            app:layout_constraintTop_toBottomOf="@id/ps1"
+            />
+
+        <ImageView
+            android:id="@+id/ps2"
+            android:layout_width="131dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginLeft="143dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/webView"
+            android:background="@drawable/person3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#31eb69"
+            android:lineSpacingExtra="3sp"
+            android:text="Name : malkoba"
+            android:layout_gravity="left|top"
+            app:layout_constraintStart_toStartOf="@id/ps2"
+            app:layout_constraintTop_toBottomOf="@id/ps2"
+            android:layout_marginTop="162dp"
+            android:layout_marginLeft="150dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#31eb69"
+            android:lineSpacingExtra="3sp"
+            android:text="Nationality : Russian"
+            app:layout_constraintStart_toStartOf="@id/ps2"
+            app:layout_constraintTop_toBottomOf="@id/ps2"
+            android:layout_marginTop="175dp"
+            android:layout_marginLeft="150dp"
+            />
+
+        <ImageView
+            android:id="@+id/ps3"
+            android:layout_width="131dp"
+            android:layout_height="165dp"
+            android:layout_marginTop="177dp"
+            android:layout_marginLeft="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ps1"
+            android:background="@drawable/person4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#31eb69"
+            android:lineSpacingExtra="3sp"
+            android:text="Name : Lee "
+            app:layout_constraintStart_toStartOf="@id/ps3"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="14dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#31eb69"
+            android:lineSpacingExtra="3sp"
+            android:text="Nationality : Republic of korea"
+            app:layout_constraintStart_toStartOf="@id/ps3"
+            android:layout_marginTop="317dp"
+            android:layout_marginLeft="14dp"
+            />
+
+        <ImageView
+            android:id="@+id/ps4"
+            android:layout_width="130.1dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="225dp"
+            android:layout_marginLeft="149.9dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ps2"
+            android:background="@drawable/person5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#31eb69"
+            android:lineSpacingExtra="3sp"
+            android:text="Name : yaren admiren"
+            app:layout_constraintStart_toStartOf="@id/ps4"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="156.9dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#31eb69"
+            android:lineSpacingExtra="3sp"
+            android:text="Nationality : Kazakstan"
+            app:layout_constraintStart_toStartOf="@id/ps4"
+            android:layout_marginTop="312dp"
+            android:layout_marginLeft="156.9dp"
+            />
+
+    </FrameLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="36dp"
+        android:src="@color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="36dp"
+        android:src="@drawable/comment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="36dp"
+        android:src="@color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/transfer"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="36dp"
+        android:src="@drawable/transfer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="36dp"
+        android:src="@color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="36dp"
+        android:src="@drawable/mirror"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
